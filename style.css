@@ -1,0 +1,260 @@
+/*FONTS GOOGLE*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Quicksand:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*ilk div-mavi satir*/
+.first-column{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(160, 210, 229);
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    color: rgb(240, 63, 93); 
+}
+
+.first-column ul{
+    list-style: none;
+    display: flex;
+}
+.first-column p{
+    animation: indirim 3s alternate-reverse;
+}    
+
+@keyframes indirim {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotateY(180deg);
+    }
+}
+
+.first-column ul li, a{
+    margin: 0 5px;
+    text-decoration: none;
+    color: rgb(240, 63, 93);
+}
+/*ilk foto-logo*/
+#logo1{
+    width: 100%;
+    height: 350px;
+}
+/*nav menu*/
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(252, 213, 219);
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul{
+    float: left;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px;
+    padding-top: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(55, 156, 196);
+    padding: 5px;
+    
+}
+nav ul li a:hover{
+    background-color: rgb(160, 210, 229);
+    border-radius: 20px;
+    color: rgb(240, 63, 93);
+}
+.bars{
+    display: none;
+}
+
+/*nav da logo*/
+.logo .secend{
+    width: 150px;
+    height: 50px;
+    float: left;
+
+}
+.logo .first{
+    width: 41px;
+    float: left;
+   
+}
+/*ana foto1*/
+.main-pic{
+    width: 100%;
+    height: 500px;
+    margin-top: 5px; 
+    background: url(img/peoni/main-pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(55, 156, 196);
+    padding: 100px;
+}
+.main-pic p{
+    text-align: center;
+    font-size: 30px; 
+    font-weight: 500;
+}
+.main-pic h1{
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 4px 4px 10px rgb(252, 97, 241);
+    margin-top: 0;
+}
+.main-pic a{
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 43%;
+}
+
+ body h2{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    color: rgb(55, 156, 196);
+
+}
+/*uclu div-kategori*/
+.kategori{
+    width: 30%;
+    height: 500px;
+    float: left;
+    margin: 20px;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.katg-pic{
+    width: 95%;
+    height: 400px;
+}
+.kategori h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0;
+}
+body h3{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    color: rgb(55, 156, 196);
+
+}
+.b-day a img{
+    width: 100%;
+    height: 600px;
+    margin-top: 80px;
+}
+/*haberdar ol*/
+.mail{
+    width: 100%;
+    height: 350px;
+    margin-top: 700px;
+    background: url(img/peoni/pink2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10px;
+    line-height: 70px;
+}
+.mail h4{
+    color: rgb(240, 63, 93);
+    margin-left: 32%;
+    font-weight: bold;
+    font-size: 25px;
+}
+.mail .mail-form{
+    margin-left: 32%;
+    
+}
+.mail .mail-form #mail-input{
+    width: 40%;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: rgb(247, 202, 202);
+    font-size: 15px;
+}
+.mail .mail-form button{
+    width: 15%;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(55, 156, 196);
+    color: white;
+    font-size: 18px; 
+}
+/*whatsapp icon*/
+.whatsapp{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.whatsapp img{
+    width: 70px;
+    height: 70px;
+}
+/*footer*/
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(167, 226, 250);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    color: rgb(235, 156, 169);
+    margin-top: 4px;
+}
+.footer-columns{
+    float: left;
+    margin: 20px;
+
+}
+.footer-columns h4{
+    font-size: 27px;
+}
+.footer-columns ul li{
+    list-style: none;
+}    
+.icons li a{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 20px;
+   
+}
+.footer-columns ul li a{
+    color: rgb(55, 156, 196);
+}
+.footer-columns form input, textarea{
+    width: 100%;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: rgb(247, 202, 202);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.icons li a i{
+    color: rgb(235, 156, 169);
+}
+.icons li a:hover{
+    margin-top: 10px;
+}
